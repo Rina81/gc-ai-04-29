@@ -25,3 +25,7 @@ lint.ignore = ["E501"]
 
 [tool.setuptools]
 package-dir = {"" = "app"}
+
+[tool.uv]
+index-url = "http://nexus.cpas.cz/repository/python-group/simple"
+allow-insecure-host = ["nexus.cpas.cz"]

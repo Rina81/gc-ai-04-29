@@ -1,0 +1,13 @@
+{
+    "inputs": [],
+    "servers": {
+        "gh-labels": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/x/labels"
+        },
+        "gh-issues": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/x/issues"
+        }
+    }
+}
